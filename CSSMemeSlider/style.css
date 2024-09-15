@@ -1,10 +1,20 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+    /* -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; */
+    box-sizing: border-box;
+}
 body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #E6E6E6;
+    height: 100vh;
 }
 .slider {
     display: flex;
+    overflow: hidden;
     width: 60%;
     box-sizing: border-box;
     padding: 1rem;
@@ -28,3 +38,6 @@ body {
     height: 100%;
     object-fit: contain;
 }
+/* img {
+    border-radius: 0.625rem;
+} */
